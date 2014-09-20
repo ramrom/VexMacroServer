@@ -9,6 +9,7 @@ Vexmacroserver::Application.routes.draw do
   get 'status' => 'status#index'
 
   get 'btoff' => 'bluetooth#off'
+  get 'bton' => 'bluetooth#on'
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
